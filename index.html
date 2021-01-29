@@ -1,0 +1,76 @@
+<html lang="es">
+    <head>
+        <title>Beta UpVent - Las últimas noticias del desarrollo de UpVent</title>
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    </head>
+    <!-- component -->
+    <body class="antialiased " x-data="{ isOpen : false}">
+        <!-- hero -->
+        <div class="hero bg-blue-700 py-6 rounded-lg m-9 shadow-lg">
+            <!-- container -->
+            <div class="container px-4 sm:px-8 lg:px-16 xl:px-20 mx-auto">
+                <!-- hero wrapper -->
+                <div class="hero-wrapper grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
+
+                    <!-- hero text -->
+                    <div class="hero-text col-span-6">
+                        <h1 class=" font-bold text-4xl md:text-5xl max-w-xl text-white leading-tight">
+                            UpVent - Beta
+                            <hr />
+                            Noticias de desarrollo
+                        </h1>
+                        <hr class=" w-12 h-1 bg-orange-500 rounded-full mt-8">
+                        <p class="text-white text-base leading-relaxed mt-8 font-semibold">
+                            En esta página anunciaremos nuestros próximos planes de desarrollo y actualizaciones de los proyectos de UpVent.
+                            Aquí encontraras el estado de desarrollo de varios proyectos internos de la compañía, así como el estado de mejora
+                            de los proyectos existentes.
+                        </p>
+                        <button type="submit" class="shadow-lg md:w-32 bg-blue hover:bg-blue-dark text-white font-bold py-3 px-6 rounded-lg mt-3 hover:bg-indigo-500 transition ease-in-out duration-300">
+                            Submit
+                        </button>
+                    </div>
+
+                    <!-- hero image -->
+                    <div class="hero-image col-span-6">
+                        <img src="https://i.pinimg.com/originals/84/76/ab/8476abc84471e1bd62f49a1296fa66d1.png" alt="Programadora" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end hero -->
+
+        <hr />
+
+        <!-- This is an example component -->
+        <div class="mx-auto justify-center items-center">
+	        <div class='max-w-lg bg-white shadow-md rounded-lg overflow-hidden mx-auto'>
+		        <div class="py-4 px-8 mt-3">
+			        <div class="flex flex-col mb-8">
+				        <h2 class="text-gray-700 font-semibold text-2xl tracking-wide mb-2">upvent.codes en construcción!</h2>
+				        <p class="text-gray-500 text-base">Estamos remodelando nuestro sitio web.</p>
+			        </div>
+			        <div class="bg-gray-100 rounded-lg">
+				        <div class="py-4 px-4">
+					        <div class="flex flex-col">
+						        <h4 class="text-lg font-semibold mb-3">Cambios que estamos realizando:</h4>
+						        <div class="flex flex-col text-sm text-gray-500">
+							        <span class="mb-1">Construcción del sitio desde 0</span>
+							        <span class="mb-1">Nuevo blog con más funcionalidades para los usuarios.</span>
+							        <span class="mb-1">Sistema de tickets para reportar problemas</span>
+							        <span class="mb-1">Compras dentro de la página</span>
+							        <span class="mb-1">SEO y Velocidad mejorado</span>
+							        <span class="mb-1">Mejoras de privacidad y software libre</span>
+						        </div>
+					        </div>
+				        </div>
+			        </div>
+			        <div class="py-4">
+				        <a href="#" class="block tracking-widest uppercase text-center shadow bg-red-600 hover:bg-red-700 focus:shadow-outline focus:outline-none text-white text-xs py-3 px-10 rounded">En construcción</a>
+			        </div>
+		        </div>
+	        </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.3.5/dist/alpine.min.js" defer></script>
+    </body>
+</html>
